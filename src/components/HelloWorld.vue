@@ -38,31 +38,6 @@ export default {
   }
 }
 </script>
-<script lang="js">
-
-  export default  {
-    name: 'hero-pippo',
-    props: [],
-    mounted () {
-
-    },
-    data () {
-      return {
-
-      }
-    },
-    methods: {
-
-    },
-    computed: {
-
-    }
-}
-
-
-</script>
-
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 h3 {
