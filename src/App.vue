@@ -2,17 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="La mia prima app con Vue CLI!"/>
+    <MyNewComponent/>
   </div>
 </template>
 
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import MyNewComponent from './components/MyNewComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    MyNewComponent
   }
 }
 </script>
